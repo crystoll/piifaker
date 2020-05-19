@@ -5,11 +5,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.ArrayList;
 
+import fi.solita.piifaker.model.*;
 import org.springframework.stereotype.Service;
-
-import fi.solita.piifaker.model.Address;
-import fi.solita.piifaker.model.Person;
-import fi.solita.piifaker.model.Sex;
 
 @Service
 public class TestDataService {
@@ -84,14 +81,12 @@ public class TestDataService {
         .toString();
     }
 
-    public Person generateTestPerson() {
+    public PersonRecord generateTestPerson() {
         Sex sex = randomSex();
-        Address address = new Address(randomStreetname(), "Duckland", "111111", "Duck-Country");
+        var address = new AddressRecord(randomStreetname(), "Duckland", "111111", "Duck-Country");
         String firstName = randomFirstName(sex);
         String lastName = randomLastName();
         String emailAddress = randomEmailAddress(firstName, lastName);
-        Person person = new Person(sex, firstName, lastName, emailAddress, LocalDate.now(),
-                "111111-111A", address);
-        return person;
+        return new PersonRecord(sex, firstName, lastName, emailAddress, LocalDate.now(), "111111-111A", address);
     }
 }

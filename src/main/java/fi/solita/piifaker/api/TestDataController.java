@@ -17,7 +17,7 @@ public class TestDataController {
     }
 
     @GetMapping("/person")
-    public Person generateTestPerson() {
+    public PersonRecord generateTestPerson() {
         return testDataService.generateTestPerson();
     }
 }
