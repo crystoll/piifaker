@@ -1,10 +1,10 @@
-package fi.solita.vault76;
+package fi.solita.piifaker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Vault76ApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

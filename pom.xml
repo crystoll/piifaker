@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>fi.solita</groupId>
-	<artifactId>vault76</artifactId>
+	<artifactId>piifaker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vault76</name>
+	<name>piifaker</name>
 	<description>Small tool for generating test data</description>
 
 	<properties>

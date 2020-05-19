@@ -1,12 +1,10 @@
-package fi.solita.vault76.api;
-
-import java.time.LocalDate;
+package fi.solita.piifaker.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import fi.solita.vault76.model.*;
+import fi.solita.piifaker.model.*;
 
 @RestController
 public class TestDataController {

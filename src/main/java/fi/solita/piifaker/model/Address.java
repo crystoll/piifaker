@@ -1,4 +1,4 @@
-package fi.solita.vault76.model;
+package fi.solita.piifaker.model;
 
 public class Address {
     private String streetAddress;

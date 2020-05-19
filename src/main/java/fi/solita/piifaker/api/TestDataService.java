@@ -1,4 +1,4 @@
-package fi.solita.vault76.api;
+package fi.solita.piifaker.api;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.ArrayList;
 
 import org.springframework.stereotype.Service;
 
-import fi.solita.vault76.model.Address;
-import fi.solita.vault76.model.Person;
-import fi.solita.vault76.model.Sex;
+import fi.solita.piifaker.model.Address;
+import fi.solita.piifaker.model.Person;
+import fi.solita.piifaker.model.Sex;
 
 @Service
 public class TestDataService {
